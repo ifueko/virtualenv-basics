@@ -1,18 +1,11 @@
-# Deep Convolution Generative Adversarial Networks
+# Pytorch Example:  Deep Convolution Generative Adversarial Networks
 
-This example implements the paper [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)
+This is a modification of the pytorch example found [here](https://github.com/pytorch/examples/tree/master/dcgan).
 
-The implementation is very close to the Torch implementation [dcgan.torch](https://github.com/soumith/dcgan.torch)
+Currently, it supports CIFAR10, MNIST, and FashionMNIST.
 
-After every 100 training iterations, the files `real_samples.png` and `fake_samples.png` are written to disk
-with the samples from the generative model.
+## Usage
 
-After every epoch, models are saved to: `netG_epoch_%d.pth` and `netD_epoch_%d.pth`
-
-## Downloading the dataset
-You can download the LSUN dataset by cloning [this repo](https://github.com/fyu/lsun) and running
-```
-python download.py -c bedroom
 ```
 
 ## Usage
@@ -25,7 +18,7 @@ usage: main.py [-h] --dataset DATASET --dataroot DATAROOT [--workers WORKERS]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --dataset DATASET     cifar10 | lsun | mnist |imagenet | folder | lfw | fake
+  --dataset DATASET     cifar10 | mnist | fashionmnist | folder | fake
   --dataroot DATAROOT   path to dataset
   --workers WORKERS     number of data loading workers
   --batchSize BATCHSIZE input batch size
