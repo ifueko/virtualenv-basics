@@ -4,7 +4,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description="Download Torchvision Datasets by name.")
 parser.add_argument('--dir', required='true', help='save directory')
-parser.add_argument('--datat', required='true', help='dataset name')
+parser.add_argument('--data', required='true', help='dataset name')
 
 args = parser.parse_args()
 
