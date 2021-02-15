@@ -1,4 +1,4 @@
-# Virtual Environemnt Basics for Machine Learning in Python
+# Virtual Environment Basics for Machine Learning in Python
 
 ### View the main tutorial in Colab [here](https://colab.research.google.com/drive/1Zw7sfAjcJgZDnmwwntOWQsHMQGXLpPIi?usp=sharing)!
 
